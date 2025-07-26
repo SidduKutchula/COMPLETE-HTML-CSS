@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moving Mouse Cursor</title>
+  <style>
+    /* Hide default cursor */
+    body {
+      margin: 0;
+      padding: 0;
+      cursor: none;
+      height: 100vh;
+      background-color: #000000;
+    }
+
+    /* Custom cursor style */
+    .cursor {
+      position: fixed;
+      width: 20px;
+      height: 20px;
+      background-color: rgb(234, 0, 0);
+      border-radius: 50%;
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      transition: transform 0.05s linear;
+      z-index: 9999;
+     
+    }
+    .sub{
+        width: 5px;
+      height: 5px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 100%;
+       border:white solid 2px;
+       position:relative;
+       top:50%;
+       left:50%;
+       box-shadow:100px 100px blur #ffffff ;
+
+    }
+  </style>
+</head>
+<body onmousemove="moveCursor(event)">
+  <!-- Custom cursor element -->
+  <div class="cursor">
+    <div class="sub"></div>
+  </div>
+
+  <!-- JavaScript to move the cursor -->
+  <script>
+    function moveCursor(e) {
+      const cursor = document.querySelector('.cursor');
+      const x = e.clientX;
+      const y = e.clientY;
+      cursor.style.transform = `translate(${x}px, ${y}px)`;
+    }
+  </script>
+</body>
+</html>

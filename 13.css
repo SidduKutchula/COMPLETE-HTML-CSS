@@ -1,0 +1,24 @@
+div {
+    border: 5px solid rgb(0, 0, 0);
+    height: 400px;
+    width: 300px;
+    color: white;
+    margin-top: 50px;
+}
+
+span {
+    background-color: orange;
+    color: green;
+}
+
+.dad {
+    background-color: aquamarine;
+    position: relative;
+    bottom: 50px;
+}
+
+.siddu {
+    background-color: blueviolet;
+    position: relative;
+    left: 100px;
+}

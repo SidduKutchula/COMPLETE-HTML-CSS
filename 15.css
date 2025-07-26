@@ -1,0 +1,42 @@
+body{
+    background: green;
+
+}
+div{
+    background-color: rgb(255, 194, 73);
+    background:linear-gradient(blue,yellow);
+    color:white;
+    text-align:center;
+}
+@media screen and (min-width:651px)
+{
+    body{
+        background-color: aquamarine;
+    }
+    .banner{
+        background-color: blueviolet;
+        color:white;
+    }
+}
+   @media screen and (min-width:768px)
+{
+    body{
+        background-color: rgb(247, 29, 29);
+    }
+    .banner{
+        background-color: rgb(0, 255, 98);
+        color:white;
+    }
+}
+@media screen and (min-width:927px)
+{
+    body{
+        background-color: rgb(243, 0, 194);
+    }
+    .banner{
+        background-color: rgb(0, 0, 0);
+        color:white;
+    }
+}
+   
+   

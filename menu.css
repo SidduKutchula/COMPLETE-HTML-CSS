@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.mobile-options {
+    display: block;
+    border: 3px solid rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 200px;
+    height: 100vh;
+    background-color: rgb(103, 101, 101);
+    box-shadow: 2px 1px rgb(201, 191, 191);
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 0PX;
+    top: 0px;
+
+}
+
+div {
+    padding: 10px;
+    border-bottom: 2px white solid;
+    text-shadow: 3px;
+    cursor:pointer;
+}
+
+.mobile-options div {
+    width: 100%;
+}
+
+.mobile-options div:hover {
+
+    background-color: rgb(234, 183, 151);
+    border-radius: 5px;
+    margin: 0px;
+    border: 1px solid white;
+    box-sizing: border-box;
+
+
+}
+
+span {
+    color: rgb(255, 248, 248);
+    font-size: 50px;
+    transition: left .5s linear;
+}
+
+button {
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    padding: 5px 5px;
+
+}

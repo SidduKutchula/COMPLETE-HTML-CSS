@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div {
+    color: blueviolet;
+    min-height: 100vh;
+    font-size: 60px;
+    opacity:1;
+}
+.MOM {
+    background: url("./d618024dae0fcde9992b6c2647876199.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background:linear-gradient(orange,greenyellow);
+    opacity:0.8;
+}

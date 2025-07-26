@@ -1,0 +1,29 @@
+div{
+    width:250px;
+    height:250px;
+    display:inline-block;
+   
+}
+.one{
+    background-color: aqua;
+}
+.two{
+    background:red;
+}
+.three{
+        background-color: blueviolet;
+   /* transition-property:background, border-radius;
+    transition-duration:2s,2s;
+    cursor: pointer;*/
+    transition:background 2s .3s, border-radius 3s .2s;
+     border-radius:50%;
+.three{
+    border-radius:50%;
+    cursor: pointer;
+    opacity: 0.5;
+}
+}
+.three:hover{
+background:linear-gradient(blue,red,green,yellow);
+opacity:1;
+}

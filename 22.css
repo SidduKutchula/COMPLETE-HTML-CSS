@@ -1,0 +1,53 @@
+div {
+    height: 100%;
+    width: 20%;
+    background-color: orangered;
+    display: block;
+    padding: 50px;
+    margin: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.transition {
+    transition: all 1s linear;
+}
+
+.transition:hover {
+    transform: translateX(150px);
+    background-color: green;
+    opacity: 0.5;
+}
+
+.animation {
+    background: brown;
+   animation:movingAnimation 1s infinite;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes movingAnimation {
+    0% {
+        transform: translate(20px);
+    }
+
+    50% {
+        transform: translateY(200px);
+        background-color: blueviolet;
+        opacity: 0.3;
+    }
+
+    75% {
+        transform: translateX(-250px);
+        background-color: yellowgreen;
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(20px);
+        background-color: black;
+        opacity: 0.5;
+    }
+}

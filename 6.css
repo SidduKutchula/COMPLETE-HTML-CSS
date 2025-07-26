@@ -1,0 +1,75 @@
+.siddu {
+    background-color: aquamarine;
+    color:blue;
+    display:inline;
+padding:50px;
+margin-top:50px;
+margin-bottom:50px;
+margin-left:50px;
+padding:5px;
+border:solid red 2px;
+outline:10px;
+outline-offset:-10px;
+border-radius:50px;
+text-align:start;
+
+}
+.mom{
+    background-color: rgb(131, 41, 222);
+    color:rgb(255, 255, 255);
+    padding-left:10px;
+    margin-right:50px;
+    margin-left:50px;
+    border:2px solid rgb(0, 0, 0);
+    border-radius:10px;
+    margin:50px 50px;
+    text-align:end;
+
+
+
+}
+.s{
+    background-color: aquamarine;
+    color:blue;
+    display:inline;
+padding:50px;
+margin-top:50px;
+margin-bottom:50px;
+margin-left:50px;
+padding:5px;
+border:solid red 2px;
+outline:10px;
+outline-offset:-10px;
+border-radius:50px;
+text-align:center;
+}
+.m{
+    background-color: aquamarine;
+    color:blue;
+    display:inline;
+padding:50px;
+margin-top:50px;
+margin-bottom:50px;
+margin-left:50px;
+padding:5px;
+border:solid red 2px;
+outline:10px;
+outline-offset:-10px;
+border-radius:50px;
+text-align: center;
+}
+.G{
+    text-align:center;
+    background-color: rgb(149, 149, 255);
+    padding:0px;
+    margin:10px;
+    margin-left:300px;
+    line-height:50px;
+    width:100px;
+    border:rgb(6, 5, 5) solid 3px;
+    border-radius:30px;
+    font-weight: bolder;
+    color:rgb(0, 0, 0);
+    margin-top:50px;
+    
+}

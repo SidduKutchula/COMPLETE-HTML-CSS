@@ -1,0 +1,34 @@
+button{
+    padding:10px;
+    position:relative;
+     top:500px;
+     left:400px;
+    background-color:green;
+    border:none;
+    border-radius:7px;
+    outline:none;
+transition: all 1s ease-in-out;
+
+}
+button:hover{
+    color:white;
+    background:orangered;
+    border:none;
+    border-radius:7px;
+    outline:none;
+cursor:pointer;
+
+    
+}
+a{
+    color:blueviolet;
+}
+a:visited{
+    color:rgb(246, 6, 6);
+}
+a:hover{
+    color:orangered;
+}
+a:active{
+color:green;
+}

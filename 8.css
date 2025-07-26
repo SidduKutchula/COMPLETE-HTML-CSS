@@ -1,0 +1,14 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.navbar{
+    background-color: blue;
+    color:white;
+    font-size:80px;
+    height:100px;
+}
+.banner{
+    background-color: aquamarine;
+    min-height:calc(100vh - 100px);
+}

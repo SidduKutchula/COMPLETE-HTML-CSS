@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 100px, 100px;
+    width: 50vw;
+    box-sizing: border-box;
+    background-color: rgb(236, 215, 255);
+    z-index:4;
+}
+
+/*p::before{
+content:"MOM!";
+color:red;
+font-size:30px;
+}
+p::after{
+    content:"DAD!";
+    color:blueviolet;
+    font-size:30px;
+
+}*/
+img {
+    width: 50vw;
+    height: 50vw;
+    display: block;
+    z-index: 1;
+
+}
+
+div {
+    position: relative;
+    top: 120px;
+    left: 250px;
+
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: rgb(255, 0, 0) 3px solid;
+    border-sizing: border-box;
+    box-sizing: border-box;
+    top: -60px;
+    left: -80px;
+    z-index: -2;
+}
+
+div::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(7, 15, 255);
+    box-sizing: border-box;
+    top: -30px;
+    left: -30px;
+    opacity: 0.2;
+    z-index: -1;
+}

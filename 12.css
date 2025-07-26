@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+box-sizing:border-box;
+}
+div{
+    width:400px;
+}
+.one{
+    float:left;
+    background:blue;
+    height:400px;
+}
+.two{
+    float:left;
+    background:rgb(231, 0, 0);
+    height:400px;
+}
+.three{
+    float:left;
+    background:rgb(0, 255, 76);
+    height:400px;
+}
+.four{
+    float:left;
+    background:rgb(135, 43, 255);
+    height:400px;
+}
+.five{
+    float:left;
+    background:rgb(0, 0, 0);
+    height:400px;
+}
+h1{
+    clear:both;
+
+}
+

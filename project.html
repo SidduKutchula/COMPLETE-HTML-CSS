@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CampusSphere</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #f0f4f8, #e3f2fd);
+      color: #1e293b;
+      line-height: 1.6;
+      padding: 1rem;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2rem;
+      color: #0f172a;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #475569;
+    }
+
+    section {
+      margin: 2rem 0;
+    }
+
+    h2 {
+      font-family: 'Montserrat', sans-serif;
+      color: #1e40af;
+      margin-bottom: 1rem;
+      font-size: 1.4rem;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 20px 20px rgba(24, 24, 24, 0.1);
+      padding: 1.5rem;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      color: #0f172a;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #475569;
+    }
+
+    .tags {
+      margin-top: 0.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .tag {
+      background-color: #e0f2fe;
+      color: #0369a1;
+      padding: 0.3rem 0.6rem;
+      border-radius: 0.5rem;
+      font-size: 0.8rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      .card {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🚀 CampusSphere: Empowering Students</h1>
+    <p>Your campus hub for projects, marketplace, and growth opportunities</p>
+  </header>
+
+  <section>
+    <h2>🎯 Top Projects</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>EcoTrack - Sustainability App</h3>
+        <p>Track carbon footprints, recycling, and eco-challenges on campus.</p>
+        <div class="tags">
+          <span class="tag">React Native</span>
+          <span class="tag">MongoDB</span>
+          <span class="tag">Gamification</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>StudyBuddy AI</h3>
+        <p>AI-based study assistant that customizes learning paths and schedules.</p>
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">TensorFlow</span>
+          <span class="tag">React</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>CampusEats</h3>
+        <p>Reduce food waste by linking students with discounted surplus food.</p>
+        <div class="tags">
+          <span class="tag">Vue.js</span>
+          <span class="tag">Laravel</span>
+          <span class="tag">MySQL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>🛒 Marketplace Items</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>MacBook Pro M2</h3>
+        <p>Lightly used, great for dev work. Original box & charger included.</p>
+        <div class="tags">
+          <span class="tag">Electronics</span>
+          <span class="tag">Like New</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Calculus Textbooks</h3>
+        <p>Complete Math 101-103 bundle in good condition with solution manuals.</p>
+        <div class="tags">
+          <span class="tag">Books</span>
+          <span class="tag">Textbooks</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Tutoring: Python & Web Dev</h3>
+        <p>1-on-1 coding support at flexible hours by experienced CS student.</p>
+        <div class="tags">
+          <span class="tag">Services</span>
+          <span class="tag">Tutoring</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>💼 Opportunities</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Software Engineering Intern</h3>
+        <p>Join TechCorp's web team with React and Node.js development projects.</p>
+        <div class="tags">
+          <span class="tag">Internship</span>
+          <span class="tag">On-Site</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>AI Research Assistant</h3>
+        <p>Support ML research at the University Lab with TensorFlow & writing.</p>
+        <div class="tags">
+          <span class="tag">Research</span>
+          <span class="tag">On Campus</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

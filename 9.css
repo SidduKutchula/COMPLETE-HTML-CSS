@@ -1,0 +1,21 @@
+div {
+    color: green;
+    height: 300px;
+}
+
+.big {
+    background: url("./1.jpg");
+}
+
+.small {
+    background: url("./image.png");
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-size: cover;
+}
+.folder{
+    background:url("./f.png");
+}

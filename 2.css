@@ -1,0 +1,20 @@
+.S {
+    color: rgb(0, 0, 0);
+    background: #cd9c34;
+    font-size: 20px;
+    border: 5px solid rgb(159, 6, 255);
+    text-transform: lowercase;
+    opacity: inherit;
+
+
+}
+
+.M {
+    color: rgb(0, 0, 0);
+    background: #000000;
+    font-size: 20px;
+    border: 5px solid rgb(25, 22, 232);
+    text-transform: lowercase;
+    opacity: 36px;
+
+}

@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    height: 400px;
+    font-size: 60px;
+    color: blue;
+}
+
+.m1 {
+    background: url("./1.jpg");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.d2 {
+    background: url("./f.png");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.s3 {
+    background: url("./image.png");
+    background-position: center;
+    background-attachment: scroll;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Areas</title>
+    <style>
+        .grid {
+            display: grid;
+            border:2px solid white;
+             grid-template-columns:1fr 1fr 1fr;
+        grid-template-rows:repeat(6 , 100px);
+        }
+        .cell {
+            height:100px;
+            padding:10px;
+            border: 1px solid black;
+        }
+        .cell-1 {
+            background-color: blueviolet;
+          grid-column-start:1;
+        grid-column-end:3;
+             
+        }
+
+        .cell-2 {
+        background-color: rgb(255, 0, 0);
+        grid-column-start:1;
+          grid-column-end:4;
+         
+        }
+
+        .cell-3 {
+            background-color: rgb(0, 0, 0);
+            grid-column-start:2;
+        }
+
+        .cell-4 {
+            background-color: rgb(11, 184, 63);
+            grid-column: 1/4;
+        }
+
+        .cell-5 {
+            background-color: rgb(41, 7, 175);
+        }
+
+        .cell-6 {
+            background-color: rgb(222, 208, 12);
+            grid-column: 2/4;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="cell cell-1"></div>
+        <div class="cell cell-2"></div>
+        <div class="cell cell-3"></div>
+        <div class="cell cell-4"></div>
+        <div class="cell cell-5"></div>
+        <div class="cell cell-6"></div>
+    </div>
+</body>
+
+</html>
