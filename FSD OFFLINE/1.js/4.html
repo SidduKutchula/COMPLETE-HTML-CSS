@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dynamic Grid with JS</title>
+</head>
+<body>
+
+  <div class="controls">
+    <input type="text" id="tagInput" placeholder="Enter tag (e.g. h1, p, div)" required>
+    <input type="text" id="textInput" placeholder="Enter text content" required>
+    <button onclick="addToGrid()">Add to Grid</button>
+  </div>
+
+  <div class="grid-container" id="gridBox">
+    <!-- Grid items will be added here -->
+  </div>
+
+  <script>
+    function addToGrid() {
+      const tag = document.getElementById("tagInput").value.trim();
+      const text = document.getElementById("textInput").value.trim();
+      const element = document.createElement(tag);
+      element.innerText = text;
+      const grid = document.getElementById("gridBox");
+      grid.appendChild(element);
+      
+    }
+  </script>
+
+</body>
+</html>

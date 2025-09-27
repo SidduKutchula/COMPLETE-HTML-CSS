@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Dashboard - Task Crown</title>
+  <link rel="stylesheet" href="personal.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <div class="logo">
+        <span class="logo-icon">👑</span>
+        <span class="logo-text">Task Crown</span>
+      </div>
+    </div>
+    <div class="navbar-center">
+      <a href="personal.html" class="nav-link active">Personal</a>
+      <a href="team.html" class="nav-link">Team</a>
+      <a href="high_priority.html" class="nav-link">High Priority</a>
+      <a href="pending_tasks.html" class="nav-link">Pending</a>
+      <a href="completed_this_week.html" class="nav-link">Completed</a>
+      <a href="productivity_score.html" class="nav-link">Analytics</a>
+    </div>
+    <div class="navbar-right">
+      <button class="profile-btn">
+        <span class="profile-avatar">👤</span>
+      </button>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <div class="page-header">
+      <div class="header-content">
+        <h1>Welcome back, Madhava! 👋</h1>
+        <p>Here's what's on your plate today</p>
+      </div>
+      <div class="header-stats">
+        <div class="stat-card">
+          <div class="stat-number">12</div>
+          <div class="stat-label">Tasks Today</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">85%</div>
+          <div class="stat-label">Completion Rate</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dashboard-grid">
+      <div class="quick-actions">
+        <h2>⚡ Quick Actions</h2>
+        <div class="action-buttons">
+          <button class="action-btn primary">
+            <span class="btn-icon">➕</span>
+            Add New Task
+          </button>
+          <button class="action-btn stuck-mode">
+            <span class="btn-icon">🧠</span>
+            Stuck Mode™
+          </button>
+          <button class="action-btn secondary">
+            <span class="btn-icon">🎯</span>
+            Focus Timer
+          </button>
+        </div>
+      </div>
+
+      <div class="today-tasks">
+        <h2>📅 Today's Tasks</h2>
+        <div class="task-list">
+          <div class="task-item high">
+            <div class="task-checkbox">
+              <input type="checkbox" id="task1">
+              <label for="task1"></label>
+            </div>
+            <div class="task-content">
+              <h4>Review security audit findings</h4>
+              <p>Go through critical vulnerabilities and create action plan</p>
+              <div class="task-meta">
+                <span class="priority-badge high">High</span>
+                <span class="due-time">Due in 2 hours</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="task-item medium">
+            <div class="task-checkbox">
+              <input type="checkbox" id="task2">
+              <label for="task2"></label>
+            </div>
+            <div class="task-content">
+              <h4>Update project documentation</h4>
+              <p>Add new API endpoints to developer docs</p>
+              <div class="task-meta">
+                <span class="priority-badge medium">Medium</span>
+                <span class="due-time">Due today</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="task-item low">
+            <div class="task-checkbox">
+              <input type="checkbox" id="task3" checked>
+              <label for="task3"></label>
+            </div>
+            <div class="task-content completed">
+              <h4>Weekly team standup</h4>
+              <p>Discuss sprint progress and blockers</p>
+              <div class="task-meta">
+                <span class="priority-badge low">Low</span>
+                <span class="due-time">Completed</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="recent-activity">
+        <h2>🔄 Recent Activity</h2>
+        <div class="activity-list">
+          <div class="activity-item">
+            <div class="activity-icon">✅</div>
+            <div class="activity-content">
+              <p>Completed "Deploy v2.1 to production"</p>
+              <span class="activity-time">2 hours ago</span>
+            </div>
+          </div>
+          <div class="activity-item">
+            <div class="activity-icon">➕</div>
+            <div class="activity-content">
+              <p>Added "Review security audit"</p>
+              <span class="activity-time">3 hours ago</span>
+            </div>
+          </div>
+          <div class="activity-item">
+            <div class="activity-icon">🔥</div>
+            <div class="activity-content">
+              <p>Started focus session for 25 minutes</p>
+              <span class="activity-time">4 hours ago</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="productivity-overview">
+        <h2>📊 This Week's Progress</h2>
+        <div class="progress-stats">
+          <div class="progress-item">
+            <div class="progress-label">Tasks Completed</div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 75%"></div>
+            </div>
+            <div class="progress-value">15/20</div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-label">Focus Time</div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 60%"></div>
+            </div>
+            <div class="progress-value">12h/20h</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

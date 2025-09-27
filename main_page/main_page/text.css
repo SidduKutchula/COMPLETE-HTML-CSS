@@ -1,0 +1,7 @@
+.text{
+    height: 100svh;
+    width:100svh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

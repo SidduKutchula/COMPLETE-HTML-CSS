@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productivity Score - Task Crown</title>
+  <link rel="stylesheet" href="productivity_score.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <div class="logo">
+        <span class="logo-icon">👑</span>
+        <span class="logo-text">Task Crown</span>
+      </div>
+    </div>
+    <div class="navbar-center">
+      <a href="personal.html" class="nav-link">Personal</a>
+      <a href="team.html" class="nav-link">Team</a>
+      <a href="high_priority.html" class="nav-link">High Priority</a>
+      <a href="pending_tasks.html" class="nav-link">Pending</a>
+      <a href="completed_this_week.html" class="nav-link">Completed</a>
+      <a href="productivity_score.html" class="nav-link active">Analytics</a>
+    </div>
+    <div class="navbar-right">
+      <button class="profile-btn">
+        <span class="profile-avatar">👤</span>
+      </button>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <div class="page-header">
+      <div class="header-icon">📊</div>
+      <div class="header-content">
+        <h1>Productivity Score</h1>
+        <p>Track your productivity trends and optimize your workflow.</p>
+      </div>
+    </div>
+
+    <div class="score-hero">
+      <div class="score-circle">
+        <div class="score-inner">
+          <div class="score-value">87</div>
+          <div class="score-label">Score</div>
+        </div>
+        <svg class="score-ring" width="200" height="200">
+          <circle cx="100" cy="100" r="85" stroke="rgba(255,255,255,0.1)" stroke-width="8" fill="none"/>
+          <circle cx="100" cy="100" r="85" stroke="url(#gradient)" stroke-width="8" fill="none" 
+                  stroke-dasharray="534" stroke-dashoffset="69" stroke-linecap="round" 
+                  style="transform: rotate(-90deg); transform-origin: center;"/>
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color:#00d2ff"/>
+              <stop offset="100%" style="stop-color:#3a7bd5"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <div class="score-insights">
+        <div class="insight-item">
+          <span class="insight-icon">📈</span>
+          <div class="insight-content">
+            <div class="insight-title">Trending Up</div>
+            <div class="insight-desc">+12 points this week</div>
+          </div>
+        </div>
+        <div class="insight-item">
+          <span class="insight-icon">🎯</span>
+          <div class="insight-content">
+            <div class="insight-title">Above Average</div>
+            <div class="insight-desc">23% better than last month</div>
+          </div>
+        </div>
+        <div class="insight-item">
+          <span class="insight-icon">⚡</span>
+          <div class="insight-content">
+            <div class="insight-title">Peak Performance</div>
+            <div class="insight-desc">Best score: 94 (2 days ago)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="metrics-grid">
+      <div class="metric-card">
+        <div class="metric-header">
+          <span class="metric-icon">✅</span>
+          <span class="metric-title">Task Completion</span>
+        </div>
+        <div class="metric-value">92%</div>
+        <div class="metric-bar">
+          <div class="metric-fill" style="width: 92%"></div>
+        </div>
+        <div class="metric-change positive">+5% from last week</div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-header">
+          <span class="metric-icon">⏰</span>
+          <span class="metric-title">Time Efficiency</span>
+        </div>
+        <div class="metric-value">78%</div>
+        <div class="metric-bar">
+          <div class="metric-fill" style="width: 78%"></div>
+        </div>
+        <div class="metric-change negative">-2% from last week</div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-header">
+          <span class="metric-icon">🎯</span>
+          <span class="metric-title">Focus Score</span>
+        </div>
+        <div class="metric-value">85%</div>
+        <div class="metric-bar">
+          <div class="metric-fill" style="width: 85%"></div>
+        </div>
+        <div class="metric-change positive">+8% from last week</div>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-header">
+          <span class="metric-icon">🔥</span>
+          <span class="metric-title">Consistency</span>
+        </div>
+        <div class="metric-value">90%</div>
+        <div class="metric-bar">
+          <div class="metric-fill" style="width: 90%"></div>
+        </div>
+        <div class="metric-change positive">+3% from last week</div>
+      </div>
+    </div>
+
+    <div class="chart-section">
+      <h2>📈 Weekly Trends</h2>
+      <div class="chart-container">
+        <div class="chart-header">
+          <span>Productivity Score Over Time</span>
+          <div class="chart-legend">
+            <span class="legend-item">
+              <span class="legend-color" style="background: #00d2ff"></span>
+              This Week
+            </span>
+            <span class="legend-item">
+              <span class="legend-color" style="background: rgba(255,255,255,0.3)"></span>
+              Last Week
+            </span>
+          </div>
+        </div>
+        <div class="chart">
+          <div class="chart-bars">
+            <div class="bar-group">
+              <div class="bar current" style="height: 70%"></div>
+              <div class="bar previous" style="height: 65%"></div>
+              <span class="bar-label">Mon</span>
+            </div>
+            <div class="bar-group">
+              <div class="bar current" style="height: 80%"></div>
+              <div class="bar previous" style="height: 75%"></div>
+              <span class="bar-label">Tue</span>
+            </div>
+            <div class="bar-group">
+              <div class="bar current" style="height: 90%"></div>
+              <div class="bar previous" style="height: 82%"></div>
+              <span class="bar-label">Wed</span>
+            </div>
+            <div class="bar-group">
+              <div class="bar current" style="height: 85%"></div>
+              <div class="bar previous" style="height: 78%"></div>
+              <span class="bar-label">Thu</span>
+            </div>
+            <div class="bar-group">
+              <div class="bar current" style="height: 95%"></div>
+              <div class="bar previous" style="height: 88%"></div>
+              <span class="bar-label">Fri</span>
+            </div>
+            <div class="bar-group">
+              <div class="bar current" style="height: 75%"></div>
+              <div class="bar previous" style="height: 70%"></div>
+              <span class="bar-label">Sat</span>
+            </div>
+            <div class="bar-group">
+              <div class="bar current" style="height: 60%"></div>
+              <div class="bar previous" style="height: 55%"></div>
+              <span class="bar-label">Sun</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="recommendations-section">
+      <h2>💡 Productivity Recommendations</h2>
+      <div class="recommendations-grid">
+        <div class="recommendation-card">
+          <div class="rec-icon">🧘</div>
+          <h4>Take More Breaks</h4>
+          <p>Your focus score could improve with 15-minute breaks every 2 hours.</p>
+          <button class="rec-btn">Try Pomodoro Timer</button>
+        </div>
+        <div class="recommendation-card">
+          <div class="rec-icon">📅</div>
+          <h4>Time Blocking</h4>
+          <p>Schedule focused work sessions to improve time efficiency.</p>
+          <button class="rec-btn">Set Focus Time</button>
+        </div>
+        <div class="recommendation-card">
+          <div class="rec-icon">🎯</div>
+          <h4>Priority Matrix</h4>
+          <p>Use Eisenhower matrix to prioritize high-impact tasks.</p>
+          <button class="rec-btn">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

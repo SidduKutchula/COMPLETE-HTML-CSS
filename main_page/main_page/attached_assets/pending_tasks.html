@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pending Tasks - Task Crown</title>
+  <link rel="stylesheet" href="pending_tasks.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <div class="logo">
+        <span class="logo-icon">👑</span>
+        <span class="logo-text">Task Crown</span>
+      </div>
+    </div>
+    <div class="navbar-center">
+      <a href="personal.html" class="nav-link">Personal</a>
+      <a href="team.html" class="nav-link">Team</a>
+      <a href="high_priority.html" class="nav-link">High Priority</a>
+      <a href="pending_tasks.html" class="nav-link active">Pending</a>
+      <a href="completed_this_week.html" class="nav-link">Completed</a>
+      <a href="productivity_score.html" class="nav-link">Analytics</a>
+    </div>
+    <div class="navbar-right">
+      <button class="profile-btn">
+        <span class="profile-avatar">👤</span>
+      </button>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <div class="page-header">
+      <div class="header-icon">⏳</div>
+      <div class="header-content">
+        <h1>Pending Tasks</h1>
+        <p>You have <span class="highlight">8 pending tasks</span> that need attention.</p>
+      </div>
+    </div>
+
+    <div class="filters-section">
+      <div class="filter-tabs">
+        <button class="filter-tab active">All Pending</button>
+        <button class="filter-tab">Overdue</button>
+        <button class="filter-tab">This Week</button>
+        <button class="filter-tab">Next Week</button>
+      </div>
+      <div class="sort-controls">
+        <select class="sort-select">
+          <option>Sort by Due Date</option>
+          <option>Sort by Priority</option>
+          <option>Sort by Project</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="tasks-container">
+      <div class="task-card overdue">
+        <div class="task-header">
+          <div class="priority-badge high">High</div>
+          <div class="task-due overdue">Overdue by 2 days</div>
+        </div>
+        <h3>Update security protocols</h3>
+        <p>Review and implement new security measures for user authentication</p>
+        <div class="task-meta">
+          <span class="task-project">🔐 Security Project</span>
+          <span class="task-assignee">Assigned to: Madhava</span>
+        </div>
+        <div class="task-actions">
+          <button class="action-btn start">Start Now</button>
+          <button class="action-btn reschedule">Reschedule</button>
+        </div>
+      </div>
+
+      <div class="task-card due-soon">
+        <div class="task-header">
+          <div class="priority-badge medium">Medium</div>
+          <div class="task-due">Due tomorrow</div>
+        </div>
+        <h3>Prepare client presentation</h3>
+        <p>Create slides for quarterly business review meeting</p>
+        <div class="task-meta">
+          <span class="task-project">📊 Client Relations</span>
+          <span class="task-assignee">Assigned to: Madhava</span>
+        </div>
+        <div class="task-actions">
+          <button class="action-btn start">Start Now</button>
+          <button class="action-btn reschedule">Reschedule</button>
+        </div>
+      </div>
+
+      <div class="task-card normal">
+        <div class="task-header">
+          <div class="priority-badge low">Low</div>
+          <div class="task-due">Due in 3 days</div>
+        </div>
+        <h3>Code refactoring - utils module</h3>
+        <p>Clean up and optimize utility functions for better performance</p>
+        <div class="task-meta">
+          <span class="task-project">💻 Development</span>
+          <span class="task-assignee">Assigned to: Madhava</span>
+        </div>
+        <div class="task-actions">
+          <button class="action-btn start">Start Now</button>
+          <button class="action-btn reschedule">Reschedule</button>
+        </div>
+      </div>
+
+      <div class="task-card normal">
+        <div class="task-header">
+          <div class="priority-badge medium">Medium</div>
+          <div class="task-due">Due in 5 days</div>
+        </div>
+        <h3>Database backup optimization</h3>
+        <p>Implement automated backup system with compression</p>
+        <div class="task-meta">
+          <span class="task-project">🗄️ Infrastructure</span>
+          <span class="task-assignee">Assigned to: Madhava</span>
+        </div>
+        <div class="task-actions">
+          <button class="action-btn start">Start Now</button>
+          <button class="action-btn reschedule">Reschedule</button>
+        </div>
+      </div>
+
+      <div class="task-card normal">
+        <div class="task-header">
+          <div class="priority-badge low">Low</div>
+          <div class="task-due">Due next week</div>
+        </div>
+        <h3>Team building activity planning</h3>
+        <p>Organize quarterly team building event and activities</p>
+        <div class="task-meta">
+          <span class="task-project">👥 HR</span>
+          <span class="task-assignee">Assigned to: Madhava</span>
+        </div>
+        <div class="task-actions">
+          <button class="action-btn start">Start Now</button>
+          <button class="action-btn reschedule">Reschedule</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="bulk-actions">
+      <h3>Bulk Actions</h3>
+      <div class="bulk-buttons">
+        <button class="bulk-btn">Mark All as Started</button>
+        <button class="bulk-btn">Reschedule All</button>
+        <button class="bulk-btn stuck-mode">Activate Stuck Mode™</button>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.S{
+    height: 100px;
+    width:100px;
+background-color: rgb(199, 139, 255);
+justify-content: center;
+align-items:center;
+animation:  animate 10s linear infinite;
+border-radius: 75px;
+animation-duration: 10s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -50px;
+    display: flex;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    animation-name: animate;
+
+}
+@keyframes animate{
+        from{
+        left:50px;
+        background-color: rgb(255, 0, 0);
+        }
+        to{
+        left:100px;
+        background-color: rgb(0, 255, 110);
+        }
+}

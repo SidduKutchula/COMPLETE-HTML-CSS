@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Dashboard - Task Crown</title>
+  <link rel="stylesheet" href="team.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <div class="logo">
+        <span class="logo-icon">👑</span>
+        <span class="logo-text">Task Crown</span>
+      </div>
+    </div>
+    <div class="navbar-center">
+      <a href="personal.html" class="nav-link">Personal</a>
+      <a href="team.html" class="nav-link active">Team</a>
+      <a href="high_priority.html" class="nav-link">High Priority</a>
+      <a href="pending_tasks.html" class="nav-link">Pending</a>
+      <a href="completed_this_week.html" class="nav-link">Completed</a>
+      <a href="productivity_score.html" class="nav-link">Analytics</a>
+    </div>
+    <div class="navbar-right">
+      <button class="profile-btn">
+        <span class="profile-avatar">👤</span>
+      </button>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <div class="page-header">
+      <div class="header-icon">👥</div>
+      <div class="header-content">
+        <h1>Team Dashboard</h1>
+        <p>Collaborate and track team progress</p>
+      </div>
+    </div>
+
+    <div class="team-grid">
+      <div class="team-overview">
+        <h2>Team Overview</h2>
+        <div class="overview-stats">
+          <div class="stat-card">
+            <div class="stat-number">24</div>
+            <div class="stat-label">Active Tasks</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">6</div>
+            <div class="stat-label">Team Members</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">89%</div>
+            <div class="stat-label">Team Efficiency</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-members">
+        <h2>Team Members</h2>
+        <div class="members-list">
+          <div class="member-card">
+            <div class="member-avatar">👩‍💻</div>
+            <div class="member-info">
+              <h4>Sarah Chen</h4>
+              <p>Frontend Developer</p>
+              <div class="member-status available">Available</div>
+            </div>
+            <div class="member-tasks">
+              <span class="task-count">4 tasks</span>
+            </div>
+          </div>
+
+          <div class="member-card">
+            <div class="member-avatar">👨‍💻</div>
+            <div class="member-info">
+              <h4>Marcus Johnson</h4>
+              <p>Backend Developer</p>
+              <div class="member-status busy">In Focus Mode</div>
+            </div>
+            <div class="member-tasks">
+              <span class="task-count">6 tasks</span>
+            </div>
+          </div>
+
+          <div class="member-card">
+            <div class="member-avatar">👩‍🎨</div>
+            <div class="member-info">
+              <h4>Elena Rodriguez</h4>
+              <p>UI/UX Designer</p>
+              <div class="member-status available">Available</div>
+            </div>
+            <div class="member-tasks">
+              <span class="task-count">3 tasks</span>
+            </div>
+          </div>
+
+          <div class="member-card">
+            <div class="member-avatar">👨‍💼</div>
+            <div class="member-info">
+              <h4>David Kim</h4>
+              <p>Project Manager</p>
+              <div class="member-status away">In Meeting</div>
+            </div>
+            <div class="member-tasks">
+              <span class="task-count">8 tasks</span>
+            </div>
+          </div>
+
+          <div class="member-card">
+            <div class="member-avatar">👩‍🔬</div>
+            <div class="member-info">
+              <h4>Priya Patel</h4>
+              <p>QA Engineer</p>
+              <div class="member-status available">Available</div>
+            </div>
+            <div class="member-tasks">
+              <span class="task-count">2 tasks</span>
+            </div>
+          </div>
+
+          <div class="member-card">
+            <div class="member-avatar">👨‍⚡</div>
+            <div class="member-info">
+              <h4>Madhava</h4>
+              <p>DevOps Engineer</p>
+              <div class="member-status busy">Deploying</div>
+            </div>
+            <div class="member-tasks">
+              <span class="task-count">1 task</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="recent-activity">
+        <h2>Recent Team Activity</h2>
+        <div class="activity-feed">
+          <div class="activity-item">
+            <div class="activity-avatar">👩‍💻</div>
+            <div class="activity-content">
+              <p><strong>Sarah Chen</strong> completed "Implement user authentication"</p>
+              <span class="activity-time">15 minutes ago</span>
+            </div>
+          </div>
+
+          <div class="activity-item">
+            <div class="activity-avatar">👨‍💻</div>
+            <div class="activity-content">
+              <p><strong>Marcus Johnson</strong> started working on "Database optimization"</p>
+              <span class="activity-time">1 hour ago</span>
+            </div>
+          </div>
+
+          <div class="activity-item">
+            <div class="activity-avatar">👩‍🎨</div>
+            <div class="activity-content">
+              <p><strong>Elena Rodriguez</strong> uploaded new designs for mobile app</p>
+              <span class="activity-time">2 hours ago</span>
+            </div>
+          </div>
+
+          <div class="activity-item">
+            <div class="activity-avatar">👨‍💼</div>
+            <div class="activity-content">
+              <p><strong>David Kim</strong> scheduled team sprint review</p>
+              <span class="activity-time">3 hours ago</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-progress">
+        <h2>Current Sprint Progress</h2>
+        <div class="progress-overview">
+          <div class="progress-item">
+            <div class="progress-header">
+              <span class="progress-label">Sprint Goals</span>
+              <span class="progress-value">12/15</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="progress-item">
+            <div class="progress-header">
+              <span class="progress-label">Code Reviews</span>
+              <span class="progress-value">8/10</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="progress-item">
+            <div class="progress-header">
+              <span class="progress-label">Testing Coverage</span>
+              <span class="progress-value">92%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 92%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

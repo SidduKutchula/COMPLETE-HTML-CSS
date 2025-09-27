@@ -1,0 +1,127 @@
+body{
+    background-color: black;
+    color:white;
+    height:200px;
+    width:200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.cube{
+   height:200px;
+   width:200px;
+   background-color:rgb(255, 0, 0);
+   position :absolute;
+   animation: move 5s linear infinite;
+align-items: center;
+justify-content: center;
+display:flex;
+text-align: center;
+   top: 50%;
+   left: 50%;
+    margin: -100px 0 0 -100px;
+    border: 1px solid white;
+
+   transform: translate(-50%, -50%);
+}
+.cube .front, .cube .back, .cube .left, .cube .right, .cube .top, .cube .bottom{
+    background-color: rgb(255, 0, 0);
+    border: 1px solid white;
+}
+.front{
+    transform: rotateY(90deg) translateZ(100px);
+    position: absolute; 
+    animation: rotate 5s linear infinite;
+    color: darkolivegreen;
+}
+.back{
+    position: absolute; 
+    transform: rotateY(-90deg) translateZ(100px);
+    animation: rotate 5s linear infinite;
+    color: yellow;
+}
+.left{
+    transform: rotateY(90deg) translateZ(100px);
+    position: absolute;
+    animation: rotate 5s linear infinite;
+    color: white;
+}
+.right{
+
+    transform: rotateY(-90deg) translateZ(100px);
+    position: absolute;
+    animation: rotate 5s linear infinite;
+    color: blue;
+}
+.top{
+
+    transform: rotateX(-90deg) translateZ(100px);
+    position: absolute;
+    animation: rotate 5s linear infinite;
+    color: green;
+}
+.bottom{
+
+    transform: rotateX(90deg) translateZ(100px);
+    position: absolute;
+    animation: rotate 5s linear infinite;
+    color: violet;
+}
+
+.cube .back{
+    background-color: rgb(0, 255, 0);
+}
+.cube .left{
+    background-color: rgb(0, 0, 255);
+}
+.cube .right{
+    background-color: rgb(255, 255, 0);
+}
+.cube .top{
+    background-color: rgb(255, 0, 255);
+}
+.cube .bottom{
+    background-color: rgb(0, 255, 255);
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(90deg);
+    }
+}
+.cube .front,
+.cube .back,
+.cube .left,
+.cube .right,
+.cube .top,
+.cube .bottom{
+    width: 200px;
+    height: 200px;
+    width: 33.33px;
+    height: 33.33px;
+    position: absolute;
+    display: flex;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(255, 255, 255);
+}
+.cube .front .front{
+    transform: translateZ(33n.33px);
+}
+.cube .back .back{
+    transform: translateZ(33.33px);
+}
+.cube .left .left{
+    transform: translateZ(33.33px);
+}
+.cube .right .right{
+    transform: translateZ(33.33px);
+}
+.cube .top .top{
+    transform: translateZ(33.33px);
+}
+.cube .bottom .bottom{
+    transform: translateZ(33.33px);
+}   

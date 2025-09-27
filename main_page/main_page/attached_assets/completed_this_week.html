@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Completed This Week - Task Crown</title>
+  <link rel="stylesheet" href="completed_this_week.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <div class="logo">
+        <span class="logo-icon">👑</span>
+        <span class="logo-text">Task Crown</span>
+      </div>
+    </div>
+    <div class="navbar-center">
+      <a href="personal.html" class="nav-link">Personal</a>
+      <a href="team.html" class="nav-link">Team</a>
+      <a href="high_priority.html" class="nav-link">High Priority</a>
+      <a href="pending_tasks.html" class="nav-link">Pending</a>
+      <a href="completed_this_week.html" class="nav-link active">Completed</a>
+      <a href="productivity_score.html" class="nav-link">Analytics</a>
+    </div>
+    <div class="navbar-right">
+      <button class="profile-btn">
+        <span class="profile-avatar">👤</span>
+      </button>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <div class="page-header">
+      <div class="header-icon">🎉😊😊</div>
+      <div class="header-content">
+        <h1>Completed This Week</h1>
+        <p>Great progress! You've completed <span class="highlight">12 tasks</span> this week.</p>
+      </div>
+    </div>
+
+    <div class="stats-row">
+      <div class="stat-card">
+        <div class="stat-icon">✅</div>
+        <div class="stat-value">12</div>
+        <div class="stat-label">Tasks Completed</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">⚡</div>
+        <div class="stat-value">4.2</div>
+        <div class="stat-label">Avg Tasks/Day</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">🏆</div>
+        <div class="stat-value">95%</div>
+        <div class="stat-label">Success Rate</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">⏱️</div>
+        <div class="stat-value">28h</div>
+        <div class="stat-label">Time Saved</div>
+      </div>
+    </div>
+
+    <div class="timeline-section">
+      <h2>📅 Weekly Timeline</h2>
+      <div class="timeline">
+        <div class="day-group">
+          <div class="day-header">
+            <h3>Today</h3>
+            <span class="task-count">3 tasks</span>
+          </div>
+          <div class="completed-task">
+            <div class="task-icon">✅</div>
+            <div class="task-content">
+              <h4>Fix responsive layout bugs</h4>
+              <p>Resolved mobile display issues on the dashboard</p>
+              <span class="task-time">Completed 2 hours ago</span>
+            </div>
+          </div>
+          <div class="completed-task">
+            <div class="task-icon">✅</div>
+            <div class="task-content">
+              <h4>Update user documentation</h4>
+              <p>Added new feature guides and troubleshooting tips</p>
+              <span class="task-time">Completed 4 hours ago</span>
+            </div>
+          </div>
+          <div class="completed-task">
+            <div class="task-icon">✅</div>
+            <div class="task-content">
+              <h4>Team standup meeting</h4>
+              <p>Weekly sync with development team</p>
+              <span class="task-time">Completed 6 hours ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="day-group">
+          <div class="day-header">
+            <h3>Yesterday</h3>
+            <span class="task-count">4 tasks</span>
+          </div>
+          <div class="completed-task">
+            <div class="task-icon">✅</div>
+            <div class="task-content">
+              <h4>Deploy v2.1 to production</h4>
+              <p>Successfully rolled out new features to all users</p>
+              <span class="task-time">Completed yesterday</span>
+            </div>
+          </div>
+          <div class="completed-task">
+            <div class="task-icon">✅</div>
+            <div class="task-content">
+              <h4>Code review for PR #247</h4>
+              <p>Reviewed and approved authentication improvements</p>
+              <span class="task-time">Completed yesterday</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="day-group">
+          <div class="day-header">
+            <h3>This Week</h3>
+            <span class="task-count">5 more tasks</span>
+          </div>
+          <div class="completed-task">
+            <div class="task-icon">✅</div>
+            <div class="task-content">
+              <h4>Database optimization</h4>
+              <p>Improved query performance by 40%</p>
+              <span class="task-time">Completed 3 days ago</span>
+            </div>
+          </div>
+          <div class="completed-task">
+            <div class="task-icon">✅</div>
+            <div class="task-content">
+              <h4>Customer feedback analysis</h4>
+              <p>Analyzed 150+ user reviews and created action plan</p>
+              <span class="task-time">Completed 4 days ago</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="achievement-section">
+      <h2>🏆 Achievements Unlocked</h2>
+      <div class="achievements-grid">
+        <div class="achievement-card unlocked">
+          <div class="achievement-icon">🔥</div>
+          <h4>Streak Master</h4>
+          <p>Completed tasks 7 days in a row</p>
+        </div>
+        <div class="achievement-card unlocked">
+          <div class="achievement-icon">⚡</div>
+          <h4>Speed Runner</h4>
+          <p>Finished 5 tasks in one day</p>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-icon">🎯</div>
+          <h4>Perfect Week</h4>
+          <p>Complete all planned tasks</p>
+          <div class="achievement-progress">
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 85%"></div>
+            </div>
+            <span>85%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

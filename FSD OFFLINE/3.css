@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+.hero {
+  background-color: #000;
+  padding: 60px 20px;
+}
+.hero-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+  gap: 40px;
+}
+.hero-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+.hero-text {
+  max-width: 600px;
+  color: white;
+}
+.hero-text .line {
+  width: 6px;
+  height: 40px;
+  background-color: #86e4f5;
+  margin-bottom: 50px;
+}
+.hero-text h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.hero-text p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+@media (max-width: 768px){
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-text .line {
+    margin: 0 auto 200px auto;
+  }
+}
+.more-info{
+  height:100shv;
+  width:100shv;
+  display: inline;
+
+}
+.m{
+  text-align: left;
+  justify-content: left;
+  justify-items: left;
+  align-items: left;
+  align-content: left;
+  display: flex;
+  width: 50shv;
+  height:50shv;
+  margin: 0%;
+  top:0shv;
+  left: 50shv;
+  position: left;
+  background-color: rgb(133, 133, 139);
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 10px;
+}

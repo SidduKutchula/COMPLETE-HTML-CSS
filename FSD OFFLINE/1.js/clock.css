@@ -1,0 +1,39 @@
+.clock{
+    height:100svh;
+    width:100svh;
+    border-radius:50svh;
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    justify-items:center;
+    align-items:center;
+}
+.hours{
+    color:green;
+    height:100px;
+    width:100px;
+    border-radius:50px;
+    font-size:50px;
+    padding-left:5%;
+}
+.minutes{
+    color:rgb(0, 43, 234);
+    height:100px;
+    width:100px;
+    border-radius:50px;
+    font-size:50px;
+    padding-left:25%;
+}
+.seconds{
+    color:rgb(255, 0, 0);
+    height:100px;
+    width:100px;
+    border-radius:50px;
+    font-size:50px;
+    padding-left:25%;
+}
+body{
+    background-color:rgb(117, 172, 255);
+    display:flex;
+    align-content:center;
+    justify-content:center;
+}

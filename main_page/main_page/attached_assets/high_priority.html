@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>High Priority Tasks - Task Crown</title>
+  <link rel="stylesheet" href="high_priority.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <div class="logo">
+        <span class="logo-icon">👑</span>
+        <span class="logo-text">Task Crown</span>
+      </div>
+    </div>
+    <div class="navbar-center">
+      <a href="personal.html" class="nav-link">Personal</a>
+      <a href="team.html" class="nav-link">Team</a>
+      <a href="high_priority.html" class="nav-link active">High Priority</a>
+      <a href="pending_tasks.html" class="nav-link">Pending</a>
+      <a href="completed_this_week.html" class="nav-link">Completed</a>
+      <a href="productivity_score.html" class="nav-link">Analytics</a>
+    </div>
+    <div class="navbar-right">
+      <button class="profile-btn">
+        <span class="profile-avatar">👤</span>
+      </button>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <div class="page-header">
+      <div class="header-icon">🚨</div>
+      <div class="header-content">
+        <h1>High Priority Tasks</h1>
+        <p>Focus on what matters most. <span class="highlight">3 urgent tasks</span> need your attention.</p>
+      </div>
+    </div>
+
+    <div class="tasks-grid">
+      <div class="task-card urgent">
+        <div class="task-header">
+          <div class="priority-badge critical">Critical</div>
+          <div class="task-due">Due Today</div>
+        </div>
+        <h3>Complete API Integration</h3>
+        <p>Finish connecting the payment gateway API before the client demo.</p>
+        <div class="task-meta">
+          <span class="task-time">⏰ 2 hours remaining</span>
+          <div class="task-progress">
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 75%"></div>
+            </div>
+            <span>75%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="task-card high">
+        <div class="task-header">
+          <div class="priority-badge high">High</div>
+          <div class="task-due">Due Tomorrow</div>
+        </div>
+        <h3>Review Security Audit</h3>
+        <p>Go through the security assessment report and address critical vulnerabilities.</p>
+        <div class="task-meta">
+          <span class="task-time">⏰ 1 day remaining</span>
+          <div class="task-progress">
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 40%"></div>
+            </div>
+            <span>40%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="task-card high">
+        <div class="task-header">
+          <div class="priority-badge high">High</div>
+          <div class="task-due">Due in 2 days</div>
+        </div>
+        <h3>Prepare Sprint Presentation</h3>
+        <p>Create slides and demo materials for the upcoming sprint review meeting.</p>
+        <div class="task-meta">
+          <span class="task-time">⏰ 2 days remaining</span>
+          <div class="task-progress">
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 10%"></div>
+            </div>
+            <span>10%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="action-section">
+      <h2>Quick Actions</h2>
+      <div class="action-buttons">
+        <button class="action-btn primary">
+          <span class="btn-icon">⚡</span>
+          Activate Stuck Mode™
+        </button>
+        <button class="action-btn secondary">
+          <span class="btn-icon">🆘</span>
+          Send SOS Alert
+        </button>
+        <button class="action-btn secondary">
+          <span class="btn-icon">📅</span>
+          Schedule Focus Time
+        </button>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
