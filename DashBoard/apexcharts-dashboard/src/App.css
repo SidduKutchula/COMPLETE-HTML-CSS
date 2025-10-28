@@ -1,0 +1,18 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.chart {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Make sure the charts fill their container */
+.apexcharts-canvas {
+  width: 100% !important;
+}
