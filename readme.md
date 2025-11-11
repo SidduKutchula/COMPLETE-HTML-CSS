@@ -1,11 +1,6 @@
 <!-- 🌟 FRONTEND MINI PROJECTS COLLECTION - README 🌟 -->
 <p align="center">
-  <img src="https://github.com/SidduKutchula/frontend-projects/blob/main/frontend-banner.png?raw=true" alt="Frontend Mini Projects by Siddu Kuchula" width="800">
-</p>
-
-<h1 align="center">🎨 Frontend Mini Projects Collection</h1>
-<p align="center">
-  A showcase of <b>creative, responsive, and modern web designs</b> built using <b>HTML, CSS, and JavaScript</b>.
+  <img src="https://github.com/yourusername/yourrepo/blob/main/frontend-banner.png?raw=true" alt="Frontend Mini Projects by Siddu Kuchula" width="800">
 </p>
 
 <h1 align="center">🎨 Frontend Mini Projects Collection</h1>
