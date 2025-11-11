@@ -1,6 +1,6 @@
 <!-- 🌟 FRONTEND MINI PROJECTS COLLECTION - README 🌟 -->
 <p align="center">
-  <img src="https://github.com/yourusername/yourrepo/blob/main/frontend-banner.png?raw=true" alt="Frontend Mini Projects by Siddu Kuchula" width="800">
+  <img src="ChatGPT Image Nov 11, 2025, 09_38_02 PM.png" alt="Frontend Mini Projects by Siddu Kuchula" width="800">
 </p>
 
 <h1 align="center">🎨 Frontend Mini Projects Collection</h1>
